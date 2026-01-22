@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Jenny Sun</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Jenny.sun</a>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About Me</a>
+                    <a href="projects.html" class="nav-link active">Projects</a>
+                </nav>
+                <button class="btn-contact-header">Contact</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section class="projects-page">
+        <div class="container">
+            <h1 class="projects-page-title">Latest Projects</h1>
+            
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="product-design">Product Design</button>
+                <button class="filter-btn" data-filter="visual-identity">Visual Identity</button>
+                <button class="filter-btn" data-filter="ui-ux">UI/UX</button>
+            </div>
+
+            <!-- Empty State Message -->
+            <div class="empty-state hidden">
+                <p class="empty-state-text">No relative projects yet</p>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="images/nexa.jpg" alt="NEXA Project">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">NEXA</h3>
+                        <p class="card-description">Y3K Accessories · Product Design</p>
+                        <div class="card-footer">
+                            <span class="card-year">2025</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="images/sheen.jpg" alt="Sheen Project">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Sheen</h3>
+                        <p class="card-description">AI增強化妝教程與化妝品管理app</p>
+                        <p class="card-description">AI Enhance Makeup App · UI/UX Design</p>
+                        <div class="card-footer">
+                            <span class="card-year">2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="images/babyease.jpg" alt="BabyEase Travel Package">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">BabyEase Travel Package</h3>
+                        <p class="card-description">Guest Experience Optimization · Service Design</p>
+                        <div class="card-footer">
+                            <span class="card-year">2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="images/aight.jpg" alt="a!ght Aroma Diffuser">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">a!ght</h3>
+                        <p class="card-description">Aroma Diffuser · Product Design</p>
+                        <div class="card-footer">
+                            <span class="card-year">2022</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="section-label">/// Contact ///</div>
+            <h2 class="contact-title">Let's work together.</h2>
+            <div class="contact-interactive">
+                <button class="btn-contact-main swipeable">Contact Me</button>
+                <div class="contact-email hidden">
+                    <p class="email-address">hsunhuazhen@gmail.com</p>
+                    <div class="email-divider"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Theme Toggle Button -->
+    <div class="theme-toggle">
+        <button class="theme-btn active" data-theme="light" aria-label="Light mode">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="4"></circle>
+                <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
+            </svg>
+        </button>
+        <button class="theme-btn" data-theme="dark" aria-label="Dark mode">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+        </button>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+</html>

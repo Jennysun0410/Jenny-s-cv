@@ -1,0 +1,19 @@
+{
+  "name": "jenny-sun-portfolio",
+  "version": "1.0.0",
+  "description": "Jenny Sun UX Designer Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "portfolio",
+    "ux-design"
+  ],
+  "author": "Jenny Sun",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
